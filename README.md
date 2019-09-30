@@ -1,0 +1,1 @@
+delete user (class project)
