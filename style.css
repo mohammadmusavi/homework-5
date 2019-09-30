@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.box {
+    width: 100Px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #333333;
+}
+
+.box-1 {
+    background-color: green;
+}
+
+.box-2 {
+    background-color: goldenrod;
+}
+
+.box-3 {
+    background-color: aqua;
+}
+
+.close {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #aa0000;
+}
+
+.close::selection {
+    background-color: transparent;
+}
